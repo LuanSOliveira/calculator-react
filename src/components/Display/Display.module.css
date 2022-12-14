@@ -1,0 +1,48 @@
+.Display{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    background: hsl(224, 36%, 15%);
+    width: 465px;
+    text-align: right;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.Calculo{
+    display: flex;
+    justify-content: end;
+    height: 22px;
+}
+
+.Operacao{
+    margin: 0 4px;
+}
+
+.Resultado{
+    font-size: 42px;
+    height: 42px;
+}
+
+.SegundoTema{
+    color: hsl(60, 10%, 19%);
+    background: hsl(0, 0%, 93%);
+}
+
+.TerceiroTema{
+    color: hsl(52, 100%, 62%);
+    background: hsl(268, 71%, 12%);
+}
+
+@media(max-width: 481px){
+    .Display{
+        width: 438px;
+        margin-left: 4px;
+    }
+}
+
+@media(max-width: 320px){
+    .Display{
+        width: 283px;
+    }
+}

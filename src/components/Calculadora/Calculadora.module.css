@@ -1,0 +1,24 @@
+.BoxCalculadora{
+    background: hsl(222, 26%, 31%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Calculadora{
+    margin: 80px;
+}
+
+.SegundoTema{
+    background: hsl(0, 0%, 90%);
+}
+
+.TerceiroTema{
+    background: hsl(268, 75%, 9%);
+}
+
+@media(max-width: 320px){
+    .Calculadora{
+        margin: 12px 0;
+    }
+}

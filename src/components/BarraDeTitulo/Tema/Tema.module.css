@@ -1,0 +1,17 @@
+.Tema{
+    display: flex;
+    font-size: 25px;
+    color: azure;
+}
+
+.Tema p{
+    margin-top: 8px;
+}
+
+.SegundoTema{
+    color: hsl(60, 10%, 19%);
+}
+
+.TerceiroTema{
+    color: hsl(52, 100%, 62%);
+}

@@ -1,0 +1,167 @@
+.Botao{
+    color: hsl(60, 10%, 19%);
+    background: hsl(30, 25%, 89%);
+    width: 100px;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: 0px 4px 0px 0px hsl(28, 16%, 65%);
+}
+
+.Botao:hover{
+    background: hsl(32, 76%, 97%);
+}
+
+.BotaoDel{
+    color: hsl(0, 0%, 100%);
+    background: hsl(225, 21%, 49%);
+    box-shadow: 0px 4px 0px 0px hsl(224, 28%, 35%);
+}
+
+.BotaoDel:hover{
+    background: hsl(225, 39%, 66%);
+}
+
+.BotaoReset{
+    color: hsl(0, 0%, 100%);
+    width: 216px;
+    background: hsl(225, 21%, 49%);
+    box-shadow: 0px 4px 0px 0px hsl(224, 28%, 35%);
+}
+
+.BotaoReset:hover{
+    background: hsl(225, 39%, 66%);
+}
+
+.BotaoIgual{
+    color: hsl(0, 0%, 100%);
+    width: 216px;
+    background: hsl(6, 63%, 50%);
+    box-shadow: 0px 4px 0px 0px hsl(6, 70%, 34%);
+}
+
+.BotaoIgual:hover{
+    background: hsl(6, 90%, 61%);
+}
+
+.BotaoSegundoTema{
+    color: hsl(60, 10%, 19%);
+    background: hsl(45, 7%, 89%);
+    box-shadow: 0px 4px 0px 0px hsl(35, 11%, 61%);
+}
+
+.BotaoSegundoTema:hover{
+    background: hsl(60, 100%, 100%);
+}
+
+.BotaoDelSegundoTema{
+    color: hsl(0, 0%, 100%);
+    background: hsl(185, 42%, 37%);
+    box-shadow: 0px 4px 0px 0px hsl(185, 58%, 25%);
+}
+
+.BotaoDelSegundoTema:hover{
+    background: hsl(185, 51%, 55%);
+}
+
+.BotaoIgualSegundoTema{
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 98%, 40%);
+    box-shadow: 0px 4px 0px 0px hsl(25, 99%, 27%);
+}
+
+.BotaoIgualSegundoTema:hover{
+    background: hsl(25, 95%, 50%);
+}
+
+.BotaoResetSegundoTema{
+    color: hsl(0, 0%, 100%);
+    background: hsl(185, 42%, 37%);
+    box-shadow: 0px 4px 0px 0px hsl(185, 58%, 25%);
+}
+
+.BotaoResetSegundoTema:hover{
+    background: hsl(185, 51%, 55%);
+}
+
+.BotaoTerceiroTema{
+    color: hsl(52, 100%, 62%);
+    background: hsl(268, 47%, 21%);
+    box-shadow: 0px 4px 0px 0px hsl(290, 70%, 36%);
+}
+
+.BotaoTerceiroTema:hover{
+    background: hsl(268, 47%, 35%);
+}
+
+.BotaoDelTerceiroTema{
+    color: hsl(0, 0%, 100%);
+    background: hsl(281, 89%, 26%);
+    box-shadow: 0px 4px 0px 0px hsl(285, 91%, 52%);
+}
+
+.BotaoDelTerceiroTema:hover{
+    background: hsl(281, 88%, 38%);
+}
+
+.BotaoIgualTerceiroTema{
+    color: hsl(198, 20%, 13%);
+    background: hsl(176, 100%, 44%);
+    box-shadow: 0px 4px 0px 0px hsl(177, 92%, 70%);
+}
+
+.BotaoIgualTerceiroTema:hover{
+    background: hsl(176, 100%, 52%);
+}
+
+.BotaoResetTerceiroTema{
+    color: hsl(0, 0%, 100%);
+    background: hsl(281, 89%, 26%);
+    box-shadow: 0px 4px 0px 0px hsl(285, 91%, 52%);
+}
+
+.BotaoResetTerceiroTema:hover{
+    background: hsl(281, 88%, 38%);
+}
+
+@media(max-width: 481px){
+    .Botao{
+        width: 93px;
+    }
+}
+
+@media(max-width: 481px){
+    .BotaoReset{
+        width: 202px;
+    }
+}
+
+@media(max-width: 481px){
+    .BotaoIgual{
+        width: 202px;
+    }
+}
+
+
+@media(max-width: 320px){
+    .Botao{
+        width: 54px;
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 320px){
+    .BotaoReset{
+        width: 124px;
+    }
+}
+
+@media(max-width: 320px){
+    .BotaoIgual{
+        width: 124px;
+    }
+}

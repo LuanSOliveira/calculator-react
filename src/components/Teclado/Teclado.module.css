@@ -1,0 +1,27 @@
+.Teclado{
+    width: 465px;
+    padding: 12px;
+    border-radius: 5px;
+    background: hsl(223, 31%, 20%);
+}
+
+.SegundoTema{
+    background: hsl(0, 5%, 81%);
+}
+
+.TerceiroTema{
+    background: hsl(268, 71%, 12%);
+}
+
+@media(max-width: 481px){
+    .Teclado{
+        width: 438px;
+        margin-left: 4px;
+    }
+}
+
+@media(max-width: 320px){
+    .Teclado{
+        width: 283px;
+    }
+}
